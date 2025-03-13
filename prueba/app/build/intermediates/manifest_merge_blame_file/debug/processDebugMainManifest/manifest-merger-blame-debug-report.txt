@@ -1,0 +1,225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="pointererp.com.mensajeyape"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:4:5-80
+11-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:5:5-76
+12-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:6:5-66
+13-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:6:22-64
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:7:5-76
+14-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:8:5-80
+15-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:9:5-79
+16-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:9:22-77
+17    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE" />
+17-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:10:5-11:47
+17-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:10:22-82
+18    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" />
+18-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:12:5-13:47
+18-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:12:22-90
+19
+20    <permission
+20-->[androidx.core:core:1.15.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\bcf5bb8678fe24bf9d55c11600261586\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+21        android:name="pointererp.com.mensajeyape.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.15.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\bcf5bb8678fe24bf9d55c11600261586\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.15.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\bcf5bb8678fe24bf9d55c11600261586\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="pointererp.com.mensajeyape.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.15.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\bcf5bb8678fe24bf9d55c11600261586\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.15.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\bcf5bb8678fe24bf9d55c11600261586\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:15:5-44:19
+27        android:allowBackup="true"
+27-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.15.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\bcf5bb8678fe24bf9d55c11600261586\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:17:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:18:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:19:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:20:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:21:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:22:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.MensajeYape" >
+38-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:23:9-49
+39        <service
+39-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:25:9-32:19
+40            android:name="pointererp.com.mensajeyape.MyNotificationListenerService"
+40-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:26:13-58
+41            android:exported="true"
+41-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:27:13-36
+42            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+42-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:28:13-87
+43            <intent-filter>
+43-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:29:13-31:29
+44                <action android:name="android.service.notification.NotificationListenerService" />
+44-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:30:17-99
+44-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:30:25-96
+45            </intent-filter>
+46        </service>
+47
+48        <activity
+48-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:33:9-43:20
+49            android:name="pointererp.com.mensajeyape.MainActivity"
+49-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:34:13-41
+50            android:allowBackup="true"
+50-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:36:13-39
+51            android:exported="true" >
+51-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:35:13-36
+52            <intent-filter>
+52-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:39:13-42:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:40:17-69
+53-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:40:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:41:17-77
+55-->C:\Users\Leonardo\Documents\PSS\RegistroNotificacionYape\prueba\app\src\main\AndroidManifest.xml:41:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+59            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+59-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+60            android:excludeFromRecents="true"
+60-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+63        <!--
+64            Service handling Google Sign-In user revocation. For apps that do not integrate with
+65            Google Sign-In, this service will never be started.
+66        -->
+67        <service
+67-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+68            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+68-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+69            android:exported="true"
+69-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+70            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+70-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+71            android:visibleToInstantApps="true" />
+71-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\855e9095c15569f076821f4f1a142f31\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\e5ff6c5fb4216ea068547012e98a47e6\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\e5ff6c5fb4216ea068547012e98a47e6\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\e5ff6c5fb4216ea068547012e98a47e6\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\e5ff6c5fb4216ea068547012e98a47e6\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\f4797f3c624f5654ad79cd0c153a63b8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\f4797f3c624f5654ad79cd0c153a63b8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\f4797f3c624f5654ad79cd0c153a63b8\transformed\play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+81        <!--
+82        Service for holding metadata. Cannot be instantiated.
+83        Metadata will be merged from other manifests.
+84        -->
+85        <service
+85-->[androidx.camera:camera-core:1.4.1] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\6628ae55b79d93925c4e9c4bb0bbcd85\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78
+86            android:name="androidx.camera.core.impl.MetadataHolderService"
+86-->[androidx.camera:camera-core:1.4.1] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\6628ae55b79d93925c4e9c4bb0bbcd85\transformed\camera-core-1.4.1\AndroidManifest.xml:30:13-75
+87            android:enabled="false"
+87-->[androidx.camera:camera-core:1.4.1] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\6628ae55b79d93925c4e9c4bb0bbcd85\transformed\camera-core-1.4.1\AndroidManifest.xml:31:13-36
+88            android:exported="false" />
+88-->[androidx.camera:camera-core:1.4.1] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\6628ae55b79d93925c4e9c4bb0bbcd85\transformed\camera-core-1.4.1\AndroidManifest.xml:32:13-37
+89
+90        <provider
+90-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\ec68c042ea457192ea08fc55df348415\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+91            android:name="androidx.startup.InitializationProvider"
+91-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\ec68c042ea457192ea08fc55df348415\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+92            android:authorities="pointererp.com.mensajeyape.androidx-startup"
+92-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\ec68c042ea457192ea08fc55df348415\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+93            android:exported="false" >
+93-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\ec68c042ea457192ea08fc55df348415\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+94            <meta-data
+94-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\ec68c042ea457192ea08fc55df348415\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+95-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\ec68c042ea457192ea08fc55df348415\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+96                android:value="androidx.startup" />
+96-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\ec68c042ea457192ea08fc55df348415\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+97            <meta-data
+97-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\7ceeeeba399a76acb02b21a1cb32408a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+98-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\7ceeeeba399a76acb02b21a1cb32408a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+99                android:value="androidx.startup" />
+99-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\7ceeeeba399a76acb02b21a1cb32408a\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+100            <meta-data
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+101                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+102                android:value="androidx.startup" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+103        </provider>
+104
+105        <receiver
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+106            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+107            android:directBootAware="false"
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+108            android:enabled="true"
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+109            android:exported="true"
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+110            android:permission="android.permission.DUMP" >
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+112                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+115                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+118                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+119            </intent-filter>
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+121                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Leonardo\.gradle\caches\8.10.2\transforms\516127063262e6de978c4ebc60e4d654\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+122            </intent-filter>
+123        </receiver>
+124    </application>
+125
+126</manifest>
